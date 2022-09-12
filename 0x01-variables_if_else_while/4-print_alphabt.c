@@ -8,7 +8,7 @@
  * this program prints Alphabets
  * Return: Always 0 (Success)
  */
-
+/* main function code goes here*/
 int main(void)
 {
 	char letter;
