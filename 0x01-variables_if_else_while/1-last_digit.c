@@ -5,7 +5,8 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
- * main - Entry point prints the randomly generated value and check whether its greater than 5, less than 6 or 0
+ * main - Entry point prints the randomly generated
+ * value and check whether its greater than 5, less than 6 or 0
  *
  * Return: 0 Always (Success)
  */
