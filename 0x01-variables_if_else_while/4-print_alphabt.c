@@ -4,6 +4,8 @@
  * Main - Entry point into program to print
  * alphabets in lower case followed by a new line
  *
+ * Description: Using the main function
+ * this program prints Alphabets
  * Return: Always 0 (Success)
  */
 int main(void)
