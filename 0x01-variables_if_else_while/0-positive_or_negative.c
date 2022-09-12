@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - Print a random number and state 
- * 	whether its positive, negative or zero
+ * main - Print a random number and state
+ * whether its positive, negative or zero
  *
  * Return: Always 0 (Success)
  */
