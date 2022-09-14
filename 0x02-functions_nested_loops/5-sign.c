@@ -2,7 +2,7 @@
 /**
  * print_sign - Entry point for printing signs
  *
- * @c: Check character
+ * @n: Check character
  * Return: 0
  */
 int print_sign(int n)
