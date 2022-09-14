@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point calls function print_alphabet
+ * print_alphabet - Entry point calls function print_alphabet
  *
  * Return: Always 0 (Success)
  */
+
 void print_alphabet(void)
 {
 	char c;
