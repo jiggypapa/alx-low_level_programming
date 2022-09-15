@@ -43,7 +43,7 @@ int main(void)
 		}
 		if (c != 98)
 		{
-			printf(", ";)
+			printf(", ");
 		}
 		c++;
 	}
