@@ -10,7 +10,7 @@ void jaack_bauer(void)
 	int m = 0;
 	int hr;
 	int mr;
-	
+
 	while (h <= 23)
 	{
 		while (m <= 59)
