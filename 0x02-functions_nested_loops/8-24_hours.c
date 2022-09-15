@@ -4,7 +4,7 @@
  *
  * Return: 0
  */
-void jaack_bauer(void)
+void jack_bauer(void)
 {
 	int h = 0;
 	int m = 0;
