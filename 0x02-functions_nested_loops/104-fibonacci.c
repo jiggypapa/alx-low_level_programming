@@ -3,17 +3,11 @@
 #define LARGEST 10000000000
 
 /**
- *
- *  * main - main block
- *
- *   * Description: Find and print the first 98 fib numbers starting with 1 and 2.
- *
- *    * Numbers should be coma and space separated.
- *
- *     * Return: 0
- *
- *      */
-
+ * main - main block
+ * Description: Find and print the first 98 fib numbers starting with 1 and 2.
+ * Numbers should be coma and space separated.
+ * Return: 0
+ */
 int main(void)
 {
 	unsigned long int fr1 = 0, bk1 = 1, fr2 = 0, bk2 = 2;
