@@ -1,52 +1,46 @@
 #include <stdio.h>
+
+#define LARGEST 10000000000
+
 /**
- * main - Entry point for Fibonacci
  *
- * Return: 0
- */
+ *  * main - main block
+ *
+ *   * Description: Find and print the first 98 fib numbers starting with 1 and 2.
+ *
+ *    * Numbers should be coma and space separated.
+ *
+ *     * Return: 0
+ *
+ *      */
+
 int main(void)
 {
-	int c;
-	unsigned long i, j, k;
-	unsigned long m, n, p, carry;
+	unsigned long int fr1 = 0, bk1 = 1, fr2 = 0, bk2 = 2;
+	unsigned long int hold1, hold2, hold3;
+	int count;
 
-	c = 0;
-	i = 0;
-	j = 1;
-	for (c = 1; c <= 91; c++)
+	printf("%lu, %lu, ", bk1, bk2);
+	for (count = 2; count < 98; count++)
 	{
-		k = i + j;
-		i = j;
-		j = k;
-		printf("%lu, ", k);
-	}
-	m = 1 % 1000;
-	i = 1 / 1000;
-	n = j % 1000;
-	j = j / 1000;
-	while (c <= 98)
-	{
-		carry = (m + n) / 1000;
-		p = (m = n) - carry * 1000;
-		k = (i + j) + carry;
-		m = n;
-		n = p;
-		i = j;
-		j = k;
-		if (p >= 100)
+		if (bk1 + bk2 > LARGEST || fr2 > 0 || fr1 > 0)
 		{
-			printf("%lu%lu", k, p);
+			hold1 = (bk1 + bk2) / LARGEST;
+			hold2 = (bk1 + bk2) % LARGEST;
+			hold3 = fr1 + fr2 + hold1;
+			fr1 = fr2, fr2 = hold3;
+			bk1 = bk2, bk2 = hold2;
+			printf("%lu%010lu", fr2, bk2);
 		}
 		else
 		{
-			printf("%lu0%lu", k, p);
+			hold2 = bk1 + bk2;
+			bk1 = bk2, bk2 = hold2;
+			printf("%lu", bk2);
 		}
-		if (c != 98)
-		{
-			printf(", ");
-		}
-		c++;
+		if (count != 97)
+		printf(", ");
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
