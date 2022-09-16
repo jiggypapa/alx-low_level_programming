@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * main - Entry point for program to test a function
+ * main - Entry point for program to test both positive and negative
  *
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
