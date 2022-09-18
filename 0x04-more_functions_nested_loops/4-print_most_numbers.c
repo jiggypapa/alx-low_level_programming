@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers - ptrints out numbers
+ * print_most_numbers - ptrints out numbers except 2 and 4
  *
  * Return: void
  */
