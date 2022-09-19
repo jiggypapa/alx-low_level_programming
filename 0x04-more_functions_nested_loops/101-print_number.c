@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number - Entry point of program
+ * print_numbers - Entry point of program
  *
  * Return: Always 0.
  */
