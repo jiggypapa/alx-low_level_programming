@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include 
 
 /**
  * main - program that prints either 
@@ -32,4 +33,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
+	return (0);
 }
