@@ -2,8 +2,8 @@
 
 /**
  * print_numbers - Entry point prints numbers
- * @n: number to be printed parameter
- * Return: Always 0.
+ * @n: parameter to be printed
+ * Return: void
  */
 void print_number(int n)
 {
