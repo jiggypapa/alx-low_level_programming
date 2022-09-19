@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * more_numbers - print numbers to 14
+ * more_numbers - prints numbers to 14
  *
- * Return: returns nothing
+ * Return: returns void nothing
  */
 void more_numbers(void)
 {
