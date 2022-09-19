@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_numbers - Entry point prints numbers
- * @n: parameter to be printed
+ * print_numbers - print a numbers
+ * @n: the number to print
  * Return: void
  */
-void print_number(int n)
+
+void print_number(it n)
 {
 	unsigned int x;
 	x = n;
