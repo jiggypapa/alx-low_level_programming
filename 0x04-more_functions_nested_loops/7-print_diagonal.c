@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_diagonal - prints diagonal 
+ * print_diagonal - prints diagonal
  * @n: parameter
  * Return: returns void nothing
 */
