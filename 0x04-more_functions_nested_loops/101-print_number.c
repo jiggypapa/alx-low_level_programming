@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_numbers - print a numbers
  * @n: the number to print
  * Return: void
  */
-void print_number(it n)
+void print_number(int n)
 {
 	unsigned int x;
 	x = n;
