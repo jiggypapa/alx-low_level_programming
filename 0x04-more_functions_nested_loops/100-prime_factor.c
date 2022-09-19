@@ -1,21 +1,26 @@
 #include <stdio.h>
-#include "main.h"
-/**
- * print_number - print a number
- * @n: number to print parameter
- */
-void print_number(int n)
-{
-	unsigned int num = n;
 
-	if (n < 0)
+/**
+ * main - prime numbers
+ *
+ * Return: 0
+ */
+
+int main(void)
+{
+	long num = 612852475143;
+	long div = 2;
+	long lprim = 0;
+
+	while (num != 1)
 	{
-		putchar('-');
-		num = -num;
+		if (num % div == 0)
+		{
+			num = num / div;
+			lprim = div;
+		}
+		div += 1;
 	}
-	if (num > 9)
-	{
-		print_number(num / 10);
-	}
-	putchar(num % 10 + '0');
+	printf("%ld\n", lprim);
+	return (0);
 }
