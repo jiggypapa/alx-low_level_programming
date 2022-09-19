@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_numbers - Entry point of program
- *
+ * print_numbers - Entry point prints numbers
+ * @n: number to be printed parameter
  * Return: Always 0.
  */
 void print_number(int n)
