@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strncpy – Entry point of program
- * @dest: destination string
+ * _strncpy – Entry point of program like standard 'strncpy'
+ * @dest: destination string copy buffer
  * @src: source string
- * @n: max number
- * Return: return
+ * @n: max number of byte copied
+ * Return: Always 0
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -18,5 +18,3 @@ char *_strncpy(char *dest, char *src, int n)
 
 	return (dest);
 }
-
-
