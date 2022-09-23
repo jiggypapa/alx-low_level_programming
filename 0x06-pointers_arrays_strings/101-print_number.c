@@ -2,46 +2,30 @@
 #include <stdio.h>
 
 /**
- * print_number -  checks for checks for a digit (0 through 9).
- * @n: n -  Variable
- * Return: Always 0.
+ * print_number - that prints an integer
+ * @n: number to string
+ * Returnn: nothing
  */
 
 void print_number(int n)
 {
-	unsigned int z;
-	int m, b;
+	int pot_10 = 1, sign = 1, tmp = n;
 
-	b = 10;
-
-	if (n < 10 && n >= 0)
+	while (tmp / 10)
 	{
-		_putchar(n + '0');
+		pot_10 *= 10;
+		tmp /= 10;
 	}
-	else if (n > -10 && n < 0)
+	if (tmp < 0)
 	{
-		n = n - 2 * n;
+		sign *= -1;
 		_putchar('-');
-		_putchar(n + '0');
 	}
-	else
+	while (pot_10 > 0)
 	{
-		if (n < 0)
-		{
-			n = n * -1;
-			_putchar('-');
-		}
-		z = n;
-		while (z / b > 9)
-		{
-			b = b * 10;
-		}
-		while (b > 0)
-		{
-			m = z / b;
-			z = z % b;
-			_putchar(m + '0');
-			b = b / 10;
-		}
+		tmp = n / pot_10;
+		_putchar((tmp * sign) + '0');
+		n = n - (tmp * pot_10);
+		pot_10 /= 10;
 	}
-{
+}
