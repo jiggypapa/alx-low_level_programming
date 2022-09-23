@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncpy – Entry point of program
  * @dest: destination string
@@ -7,7 +6,6 @@
  * @n: max number
  * Return: return
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
