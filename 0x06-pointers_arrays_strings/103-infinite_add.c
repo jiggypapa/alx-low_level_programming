@@ -6,6 +6,7 @@
  * @n2: second number
  * @r: buffer for result
  * @size_r: buffer size
+ *
  * Return: address of r or 0
  */
 
