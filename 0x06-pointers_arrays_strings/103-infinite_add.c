@@ -4,9 +4,9 @@
  * infinite_add - adds two numbers
  * @n1: char first number
  * @n2: char. second number
- * @r: char buffer for result
+ * @r: char buffer to store result
  * @size_r: int buffer size
- * Return: char. r
+ * Return: char. pointer r or 0
  */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
