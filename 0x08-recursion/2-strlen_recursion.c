@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - returns the length of a string
- * @s: string to check its length
- * return: On success 1.
+ * _strlen_recursion - Returns Length of String
+ * @s: string
+ *
+ * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 
