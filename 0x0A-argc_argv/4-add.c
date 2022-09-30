@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Prints the addition of positive numbers,
@@ -13,7 +14,8 @@
 
 int main(int argc, char *argv[])
 {
-	int num, digit, sum = 0;
+	int num, digit;
+	int sum = 0;
 
 	for (num = 1; num < argc; num++)
 	{
