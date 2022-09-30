@@ -4,7 +4,7 @@
 
 /**
  * main - multiplies two numbers
- * @argv: array of pointers to strings
+ * @argv: argument vector
  * @argc: argument count
  * Return: 0 if true and 1 if false
  */
