@@ -1,6 +1,5 @@
 #include "main"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - multiplies two numbers
@@ -20,7 +19,7 @@ int main(int argc, char *argv[])
 		prod = a * b;
 		printf("%d\n", prod);
 	return (0);
-	}	
+	}
 	else
 	{
 		printf("Error\n");
