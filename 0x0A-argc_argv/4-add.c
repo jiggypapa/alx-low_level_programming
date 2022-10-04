@@ -36,10 +36,7 @@ int main(int argc, char *argv[])
 	}
 	for (num = 1; num < argc; num++)
 	{
-		char con;
-
-		argv[num] = con;
-		sum += atoi(con);
+		sum += atoi(argv[num]);
 	}
 	printf("%d\n", sum);
 	return (0);
