@@ -2,10 +2,12 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - Allocates memory using malloc.
- * @b: The number of bytes to be allocated.
+ * create_array - creates an array of chars
+ * 	and initializes it with a specific char
+ * @c: character to insert
  *
- * Return: A pointer to the allocated memory.
+ * Return: NULL if size is zero or if it fails
+ * 	pointer to array if everything is normal
  */
 
 char *create_array(unsigned int size, char c)
