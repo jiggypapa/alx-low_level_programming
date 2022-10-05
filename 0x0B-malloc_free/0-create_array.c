@@ -8,13 +8,19 @@
  * Return: A pointer to the allocated memory.
  */
 
-void *malloc_checked(unsigned int b)
+char *create_array(unsigned int size, char c)
 {
-	void *ptrtomem;
+	char *array;
+	unsigned int index;
 
-	ptrtomem = malloc(b);
+	if (size == 0)
+	{
+		return (NULL);
+	array = malloc(sizeof(char) * size);
 
-	if (ptrtomem == NULL)
-		exit(98);
-	return (ptrtomem);
+	if (array == NULL)
+		return (NULL);
+	for (index = 0; index < size; index++)
+		c = array[index];
+	return (array);
 }
