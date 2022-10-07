@@ -40,7 +40,7 @@ void _print(char *str, int l)
  * Return: Pointer to dest, or NULL on fai;ure
  */
 
-char *mul(char n, char *num, int num_index, char *dest, int dset_index)
+char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 {
 	int j, k, mul, mulrem, add, addrem;
 
